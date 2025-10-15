@@ -4,29 +4,36 @@ body {
 
 header {
     margin-top: 0%;
-    border-bottom: 276px;
+
 }
 
 nav ul {
     display: flex;
-    gap: 10px;
-    align-content: flex-start;
-    list-style: none;
-    padding: 0px 14px;
+    justify-items: center;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 0%;
-
+    list-style: none;
+    padding: 0px 17px;
+    margin-top: 5px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.427);
 
 }
 
-.arte {
-    justify-content: flex-start;
-    margin-right: 40px;
+
+.button-nav {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+
 }
 
 ul button {
+
     border: none;
     background-color: transparent;
+
+
 }
 
 .menu {
@@ -37,5 +44,18 @@ ul button {
 
 }
 
+.media768 {
+    display: none;
+}
 
-@media (min-width:768px) {}
+
+@media (min-width:768px) {
+    nav ul {
+        display: none;
+    }
+
+    .media768 {
+        display: flex;
+    }
+}
+}
