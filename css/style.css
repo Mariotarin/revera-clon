@@ -1,7 +1,41 @@
-
-
-
-
-@media (min-width:768px) {
-    
+body {
+    margin-top: 0;
 }
+
+header {
+    margin-top: 0%;
+    border-bottom: 276px;
+}
+
+nav ul {
+    display: flex;
+    gap: 10px;
+    align-content: flex-start;
+    list-style: none;
+    padding: 0px 14px;
+    align-items: center;
+    margin-top: 0%;
+
+
+}
+
+.arte {
+    justify-content: flex-start;
+    margin-right: 40px;
+}
+
+ul button {
+    border: none;
+    background-color: transparent;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 10px;
+
+}
+
+
+@media (min-width:768px) {}
