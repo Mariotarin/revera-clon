@@ -62,7 +62,7 @@ ul button {
 }
 
 .mobile {
-    border-bottom: 1px solid rgba(128, 128, 128, 0.427);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.196);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -72,7 +72,7 @@ ul button {
 
 .mobile ul {
     margin: 0px;
-    padding: 0px;
+    padding: 7px;
 
 }
 
@@ -89,6 +89,55 @@ ul button {
     width: 20px;
 }
 
+.products {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    color: rgba(56, 55, 55, 0.365);
+    margin-top: 22px;
+    margin-left: 18px;
+}
+
+.products a {
+    text-decoration: none;
+    color: rgba(65, 60, 60, 0.852);
+    font-weight: 550;
+}
+
+.products a:hover {
+    text-decoration: underline;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    max-width: 1000px;
+    padding: 20px;
+}
+
+.gallery figure {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: calc(25% - 16px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+
+
+}
+
+.gallery img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+
 
 @media (min-width:768px) {
     .mobile {
@@ -101,6 +150,7 @@ ul button {
     .media768 {
         display: flex;
         justify-content: space-between;
+        align-items: center;
 
 
         padding: 30px 17px;
@@ -111,13 +161,26 @@ ul button {
     }
 
     .text {
-        margin-right: 20px;
+        justify-content: space-around;
+        padding: 10px;
+
+
+
     }
 
     .nav-icon {
-        margin-left: 20px;
+
+        justify-content: space-around;
+        margin-left: 15px;
+
 
     }
+
+    .text a {
+        text-decoration: none;
+        color: black;
+    }
+
 
 
 
