@@ -121,19 +121,79 @@ ul button {
 .gallery figure {
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: calc(25% - 16px);
+    flex-basis: calc(40% - 16px);
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0;
-
-
 }
 
 .gallery img {
     width: 100%;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 4px;
+}
+
+.gallery figcaption {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 1rem;
+    color: #101010;
+
+}
+
+.gallery a {
+    text-decoration: none;
+    font-weight: 405;
+}
+
+.text-revera {
+    justify-items: flex-start;
+    padding: 64px 32px;
+    margin-left: 20px;
+}
+
+.text-revera h1 {
+    font-weight: 590;
+    margin-bottom: 45px;
+}
+
+.text-revera p {
+    font-weight: 300;
+    color: rgb(19, 18, 18);
+}
+
+.photos-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    max-width: 1000px;
+    padding: 20px;
+
+
+}
+
+.photos-bottom figure {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: calc(55% - 16px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.photos-bottom img {
+    width: 80%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.photos-bottom p {
+    font-weight: 600;
+    padding: 1px;
+
 }
 
 
@@ -143,6 +203,11 @@ ul button {
     .mobile {
         display: none;
 
+    }
+
+
+    .gallery figure {
+        flex-basis: calc(25% - 16px);
     }
 
 
