@@ -223,6 +223,21 @@ footer a {
     padding: 30px 10px;
 }
 
+.icon-footer img {
+    width: 25px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.icon-footer ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    list-style: none;
+    padding: 10px;
+}
+
+
 
 
 @media (min-width:768px) {
